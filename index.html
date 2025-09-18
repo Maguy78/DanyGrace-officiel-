@@ -1,4 +1,4 @@
-<!DOCTYPE html><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -167,6 +167,15 @@
             left: 20px;
         }
 
+        .hero-quote::after {
+            content: '"';
+            font-size: 4rem;
+            color: #F4C2C2;
+            position: absolute;
+            bottom: -30px;
+            right: 20px;
+        }
+
         /* About Section */
         .about-content {
             display: grid;
@@ -263,14 +272,15 @@
         }
 
         .bible-verse {
-            background: linear-gradient(135deg, #000000, #333333);
-            color: #171717;
+            background: linear-gradient(135deg, #FFFFF0, #FFFFFF);
+            color: #000000;
             padding: 2rem;
             border-radius: 15px;
             margin: 3rem 0;
             text-align: center;
             font-style: italic;
             position: relative;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
         }
 
         .bible-verse::before {
@@ -501,27 +511,16 @@
 
     <!-- Page 1 - Accueil -->
     <section id="accueil" class="section">
-            <div class="container">
-                <div class="hero-content fade-in">
-                    <div class="hero-quote">
-                        Je viens du rejet, de l'abandon, de la brutalité de l'existence, de l'âpreté de l'amour et de la torture spirituelle. Depuis mes 4 ans, je savais que je n'étais pas "à ma place". J'avais des parents, des frères et sœurs, mais je vivais comme une étrangère dans ma propre maison. Mise à la rue à 8 ans, j'ai appris très tôt à conceptualiser la vie et à survivre sans l'amour de mes parents.
-                    </div class="hero-quote">
-                    <p class="quote-1">
-                        Mon premier "je ne t'aime pas" je l'ai entendu chez moi. Et mon premier "tu ne seras rien" également. Mais je savais que ce n'était pas toute la vérité sur moi.
-                    </p>
-                    <p class="quote-2">
-                        À l'âge où certains vont chercher refuge dans les bras de leurs parents quand ça ne va pas, moi j'ai appris à être mon père, ma mère, et à parler à l'Invisible.
-                    </p>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <div class="hero-quote">
+                    Je viens du rejet, de l'abandon, de la brutalité de l'existence, de l'âpreté de l'amour et de la torture spirituelle. Depuis mes 4 ans, je savais que je n'étais pas "à ma place". J'avais des parents, des frères et sœurs, mais je vivais comme une étrangère dans ma propre maison. Mise à la rue à 8 ans, j'ai appris très tôt à conceptualiser la vie et à survivre sans l'amour de mes parents.
                 </div>
-            </div>
-        </section>
-        
-        <footer>
-            <p>Une histoire de résilience et de force intérieure</p>
-        </footer>
-    </div>
-</body>
-</html>
+                <p style="font-size: 1.2rem; color: #333333; margin-bottom: 2rem;">
+                    Mon premier "je ne t'aime pas" je l'ai entendu chez moi. Et mon premier "tu ne seras rien" également. Mais je savais que ce n'était pas toute la vérité sur moi.
+                </p>
+                <p style="font-size: 1.1rem; color: #666666; font-style: italic;">
+                    À l'âge où certains vont chercher refuge dans les bras de leurs parents quand ça ne va pas, moi j'ai appris à être mon père, ma mère, et à parler à l'Invisible.
                 </p>
             </div>
         </div>
@@ -611,7 +610,7 @@
                 <p><strong>"Mes formations ne sont pas des cours, ce sont des lieux de résurrection. Chaque espace que j'ouvre est une clé d'élévation et de transformation. J'élève des icônes, pas des copies."</strong></p>
             </div>
             <div style="text-align: center;" class="fade-in">
-                <p style="font-size: 1.2rem; margin-bottom: 1.5rem; font-weight: bold;">
+                <p style="font-size: 1.2rem; margin-bottom: 1.5rem; font-weight: bold; color: #FFFFFF; background: linear-gradient(135deg, #000000, #333333); padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1);">
                     Rejoins le programme qui correspond à ton mandat. Mon rôle n'est pas de te motiver, mais de réveiller des trônes. Qui que tu sois, si tu sais qu'il est temps de ressusciter de l'intérieur, alors tu es au bon endroit.
                 </p>
                 <div class="quote-box" style="background: linear-gradient(135deg, #000000, #333333); color: #FFFFFF;">
